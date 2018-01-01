@@ -28,17 +28,17 @@ Sadržaj (45 min)
 
 
 Povezanost s ishodima učenja
-7. razred
-C. 7.2. NAKON SEDME GODINE UČENJA PREDMETA INFORMATIKA U DOMENI DIGITALNA PISMENOST I KOMUNIKACIJA UČENIK PRIPREMA, IZRAĐUJE TE OBJAVLJUJE SVOJE MREŽNE STRANICE U SKLADU S DOBROM PRAKSOM U PODRUČJU INTELEKTUALNOGA VLASNIŠTVA. KRITIČKI PROSUĐUJE DOBRA I LOŠA OBILJEŽJA POJEDINIH MREŽNIH SADRŽAJA.
-*** Pokazivanje osnovne fukncionalnosti, motivirati naprednije na samostalni rad. Tip zadatka: Koristeći online okruženje i lokalnu strukturu mrežnog mjesta postaviti radno okruženje za rad s javascript programskim jezikom.
+ 7. razred
+ C. 7.2. NAKON SEDME GODINE UČENJA PREDMETA INFORMATIKA U DOMENI DIGITALNA PISMENOST I KOMUNIKACIJA UČENIK PRIPREMA, IZRAĐUJE TE OBJAVLJUJE SVOJE MREŽNE STRANICE U SKLADU S DOBROM PRAKSOM U PODRUČJU INTELEKTUALNOGA VLASNIŠTVA. KRITIČKI PROSUĐUJE DOBRA I LOŠA OBILJEŽJA POJEDINIH MREŽNIH SADRŽAJA.
+ *** Pokazivanje osnovne fukncionalnosti, motivirati naprednije na samostalni rad. Tip zadatka: Koristeći online okruženje i lokalnu strukturu mrežnog mjesta postaviti radno okruženje za rad s javascript programskim jezikom.
 
-3. RAZRED ILI 3. GODINA UČENJA (OPĆE GIMNAZIJE)
-A. 3.1. NAKON TREĆE GODINE UČENJA PREDMETA INFORMATIKA U SREDNJOJ ŠKOLI U DOMENI INFORMACIJE I DIGITALNA TEHNOLOGIJA UČENIK DIZAJNIRA, RAZVIJA I OBJAVLJUJE STRUKTURU POVEZANIH MREŽNIH STRANICA S POMOĆU ALATA I TEHNOLOGIJA KOJE SE IZVODE NA RAČUNALU KORISNIKA.
-*** Koristeći osnovnu strukturu jezika riješiti zadatak jednostavnije složenonosti, upravljati HTML elementima i CSS svjojstvima. Tip zadatka: kreirati mrežno sučelje s implementacijom unosa podataka, pokrivanja određenih događaja, kreiranja algorima te u odnosu na rezultate manipuliranjem HTML elementima i CSS svojstvima.
+ 3. RAZRED ILI 3. GODINA UČENJA (OPĆE GIMNAZIJE)
+ A. 3.1. NAKON TREĆE GODINE UČENJA PREDMETA INFORMATIKA U SREDNJOJ ŠKOLI U DOMENI INFORMACIJE I DIGITALNA TEHNOLOGIJA UČENIK DIZAJNIRA, RAZVIJA I OBJAVLJUJE STRUKTURU POVEZANIH MREŽNIH STRANICA S POMOĆU ALATA I TEHNOLOGIJA KOJE SE IZVODE NA RAČUNALU KORISNIKA.
+ *** Koristeći osnovnu strukturu jezika riješiti zadatak jednostavnije složenonosti, upravljati HTML elementima i CSS svjojstvima. Tip zadatka: kreirati mrežno sučelje s implementacijom unosa podataka, pokrivanja određenih događaja, kreiranja algorima te u odnosu na rezultate manipuliranjem HTML elementima i CSS svojstvima.
 
-1. RAZRED PRIRODOSLOVNO-MATEMATIČKE GIMNAZIJE (105 SATI GODIŠNJE)
-A. 1.6. NAKON PRVE GODINE UČENJA PREDMETA INFORMATIKA U DOMENI RAČUNALNO RAZMIŠLJANJE I PROGRAMIRANJE UČENIK ANALIZIRA PROBLEM, DEFINIRA ULAZNE I IZLAZNE VRIJEDNOSTI TE UOČAVA KORAKE ZA RJEŠAVANJE PROBLEMA.
-*** Uz korištenje osnovne strukture jezika koristiti gotove biblioteke radi ubrzanja rada. Tip zadatka: Koristiti AJAX način rada za dohvaćanja podataka putem API - primjer izrade grafikona s podacima dobivenim putem API-a.
+ 1. RAZRED PRIRODOSLOVNO-MATEMATIČKE GIMNAZIJE (105 SATI GODIŠNJE)
+ A. 1.6. NAKON PRVE GODINE UČENJA PREDMETA INFORMATIKA U DOMENI RAČUNALNO RAZMIŠLJANJE I PROGRAMIRANJE UČENIK ANALIZIRA PROBLEM, DEFINIRA ULAZNE I IZLAZNE VRIJEDNOSTI TE UOČAVA KORAKE ZA RJEŠAVANJE PROBLEMA.
+ *** Uz korištenje osnovne strukture jezika koristiti gotove biblioteke radi ubrzanja rada. Tip zadatka: Koristiti AJAX način rada za dohvaćanja podataka putem API - primjer izrade grafikona s podacima dobivenim putem API-a.
 
 Korišteni izvori
 * [Osijek Software City CodeCAMP: Osnove JavaScripta]
