@@ -1,0 +1,319 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>OJS: Korištenje gotovih biblioteka treće strane</title>
+  <meta name="description" content="OJS: Korištenje gotovih biblioteka treće strane">
+  <meta name="author" content="Tomislav Jakopec">
+
+  <link rel="stylesheet" href="css/stil.css">
+
+  <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+  <![endif]-->
+
+
+</head>
+<body>
+  <p>Za potrebe ovog webinara prikazati će se korištenje jQuery bbiblioteke. Ostale popularne biblioteke možete lako putem Google CDN-a učitati s <a href="" target="_blank">https://developers.google.com/speed/libraries/</a></p>
+
+  <a href="#" id="rotiraj">Rotiraj</a>
+<hr />
+  <div class="slika">
+    <img src="img/html.png" alt="HTML"/>
+  </div>
+
+  <div class="slika">
+    <img src="img/css.png" alt="CSS"/>
+  </div>
+
+  <div class="slika">
+    <img src="img/js.png" alt="JavaScript"/>
+  </div>
+
+  <div class="slika">
+    <img src="img/jquery.png" alt="jQuery"/>
+  </div>
+
+  <div class="slika">
+    <img src="img/ajax.png" alt="AJAX"/>
+  </div>
+  
+  <div class="cisti"></div>
+<hr />
+
+<!-- Preuzeto s https://codepen.io/lukepeters/pen/bfFur -->
+<div class="wrapper">
+  
+    <div class="table">
+      
+      <div class="row header">
+        <div class="cell">
+          Name
+        </div>
+        <div class="cell">
+          Age
+        </div>
+        <div class="cell">
+          Occupation
+        </div>
+        <div class="cell">
+          Location
+        </div>
+      </div>
+      
+      <div class="row">
+        <div class="cell" data-title="Name">
+          Luke Peters
+        </div>
+        <div class="cell" data-title="Age">
+          25
+        </div>
+        <div class="cell" data-title="Occupation">
+          Freelance Web Developer
+        </div>
+        <div class="cell" data-title="Location">
+          Brookline, MA
+        </div>
+      </div>
+      
+      <div class="row">
+        <div class="cell" data-title="Name">
+          Joseph Smith
+        </div>
+        <div class="cell" data-title="Age">
+          27
+        </div>
+        <div class="cell" data-title="Occupation">
+          Project Manager
+        </div>
+        <div class="cell" data-title="Location">
+          Somerville, MA
+        </div>
+      </div>
+      
+      <div class="row">
+        <div class="cell" data-title="Name">
+          Maxwell Johnson
+        </div>
+        <div class="cell" data-title="Age">
+          26
+        </div>
+        <div class="cell" data-title="Occupation">
+          UX Architect & Designer
+        </div>
+        <div class="cell" data-title="Location">
+          Arlington, MA
+        </div>
+      </div>
+      
+      <div class="row">
+        <div class="cell" data-title="Name">
+          Harry Harrison
+        </div>
+        <div class="cell" data-title="Age">
+          25
+        </div>
+        <div class="cell" data-title="Occupation">
+          Front-End Developer
+        </div>
+        <div class="cell" data-title="Location">
+          Boston, MA
+        </div>
+      </div>
+      
+    </div>
+    
+    <div class="table">
+      
+      <div class="row header green">
+        <div class="cell">
+          Product
+        </div>
+        <div class="cell">
+          Unit Price
+        </div>
+        <div class="cell">
+          Quantity
+        </div>
+        <div class="cell">
+          Date Sold
+        </div>
+        <div class="cell">
+          Status
+        </div>
+      </div>
+      
+      <div class="row">
+        <div class="cell" data-title="Product">
+          Solid oak work table
+        </div>
+        <div class="cell" data-title="Unit Price">
+          $800
+        </div>
+        <div class="cell" data-title="Quantity">
+          10
+        </div>
+        <div class="cell" data-title="Date Sold">
+          03/15/2014
+        </div>
+        <div class="cell" data-title="Status">
+          Waiting for Pickup
+        </div>
+      </div>
+      
+      <div class="row">
+        <div class="cell" data-title="Product">
+          Leather iPhone wallet
+        </div>
+        <div class="cell" data-title="Unit Price">
+          $45
+        </div>
+        <div class="cell" data-title="Quantity">
+          120
+        </div>
+        <div class="cell" data-title="Date Sold">
+          02/28/2014
+        </div>
+        <div class="cell" data-title="Status">
+          In Transit
+        </div>
+      </div>
+      
+      <div class="row">
+        <div class="cell" data-title="Product">
+          27" Apple Thunderbolt displays
+        </div>
+        <div class="cell" data-title="Unit Price">
+          $1000
+        </div>
+        <div class="cell" data-title="Quantity">
+          25
+        </div>
+        <div class="cell" data-title="Date Sold">
+          02/10/2014
+        </div>
+        <div class="cell" data-title="Status">
+          Delivered
+        </div>
+      </div>
+      
+      <div class="row">
+        <div class="cell" data-title="Product">
+          Bose studio headphones
+        </div>
+        <div class="cell" data-title="Unit Price">
+          $60
+        </div>
+        <div class="cell" data-title="Quantity">
+          90
+        </div>
+        <div class="cell" data-title="Date Sold">
+          01/14/2014
+        </div>
+        <div class="cell" data-title="Status">
+          Delivered
+        </div>
+      </div>
+      
+    </div>
+    
+    <div class="table">
+      
+      <div class="row header blue">
+        <div class="cell">
+          Username
+        </div>
+        <div class="cell">
+          Email
+        </div>
+        <div class="cell">
+          Password
+        </div>
+        <div class="cell">
+          Active
+        </div>
+      </div>
+      
+      <div class="row">
+        <div class="cell" data-title="Username">
+          ninjalug
+        </div>
+        <div class="cell" data-title="Email">
+          misterninja@hotmail.com
+        </div>
+        <div class="cell" data-title="Password">
+          ************
+        </div>
+        <div class="cell" data-title="Active">
+          Yes
+        </div>
+      </div>
+      
+      <div class="row">
+        <div class="cell" data-title="Username">
+          jsmith41
+        </div>
+        <div class="cell" data-title="Email">
+          joseph.smith@gmail.com
+        </div>
+        <div class="cell" data-title="Password">
+          ************
+        </div>
+        <div class="cell" data-title="Active">
+          No
+        </div>
+      </div>
+      
+      <div class="row">
+        <div class="cell" data-title="Username">
+          1337hax0r15
+        </div>
+        <div class="cell" data-title="Email">
+          hackerdude1000@aol.com
+        </div>
+        <div class="cell" data-title="Password">
+          ************
+        </div>
+        <div class="cell" data-title="Active">
+          Yes
+        </div>
+      </div>
+      
+      <div class="row">
+        <div class="cell" data-title="Username">
+          hairyharry19
+        </div>
+        <div class="cell" data-title="Email">
+          harryharry@gmail.com
+        </div>
+        <div class="cell" data-title="Password">
+          ************
+        </div>
+        <div class="cell" data-title="Active">
+          Yes
+        </div>
+      </div>
+      
+    </div>
+    
+  </div>
+
+
+
+  <!--
+    Danas većina materijali na mreži upućuje učitanje biblioteka trećih strana pomoću CDN-a
+    primjer google CDN-a: https://cloud.google.com/cdn/
+    Primjer za učitanje bi išao ovako
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    Zbog kompletnosti korištenog koda, za potrebe ovog webinara jQuery ćemo učitati relativno s lokalnog diska kao datoteku koja je sastavni dio našeg mrežnog mjesta
+   -->
+   <script src="js/jquery-3.2.1.min.js"></script>
+   <script src="js/funkcije.js"></script>
+   
+  <script src="js/skripta.js"></script>
+</body>
+</html>

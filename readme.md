@@ -50,6 +50,10 @@ Korišteni izvori
 
 
 ###Korisno
+
+Douglas Crockford: The JavaScript Programming Language
+https://www.youtube.com/watch?v=v2ifWcnQs6M
+
 Web technology for developers: JavaScript
 https://developer.mozilla.org/bm/docs/Web/JavaScript
 

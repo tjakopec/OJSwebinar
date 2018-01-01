@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<title>OJS: Asinkroni način rada prilikom dohvaćanja podataka (AJAX)</title>
+	</head>
+	<body>
+		<p>Sav sadržaj dostupan u konzoli preglednika!</p>
+		<a href="#" id="dohvati">Dohvati s servera</a>
+		<div id="podaci"></div>
+		<!-- CDN -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<script>
+		$("#dohvati").click(function(){
+			$.getJSON( "https://randomuser.me/api/", function( vratioAPI ) {
+				$("#podaci").html("<h1>" + vratioAPI["results"][0]["email"] + "</h1>" + 
+									"<img src=\"" + vratioAPI["results"][0]["picture"]["large"] + "\" />");
+				
+			});
+			return false;
+		});
+		</script>
+	</body>
+</html>
