@@ -26,7 +26,7 @@ Sadržaj (45 min)
     primjer za 3. godinu učenja gimnazijskih programa
     primjer za 1. godinu učenja programa prirodoslovno matematičkih gimazija
 
-
+```text
 Povezanost s ishodima učenja
  7. razred
  C. 7.2. NAKON SEDME GODINE UČENJA PREDMETA INFORMATIKA U DOMENI DIGITALNA PISMENOST I KOMUNIKACIJA UČENIK PRIPREMA, IZRAĐUJE TE OBJAVLJUJE SVOJE MREŽNE STRANICE U SKLADU S DOBROM PRAKSOM U PODRUČJU INTELEKTUALNOGA VLASNIŠTVA. KRITIČKI PROSUĐUJE DOBRA I LOŠA OBILJEŽJA POJEDINIH MREŽNIH SADRŽAJA.
@@ -39,6 +39,8 @@ Povezanost s ishodima učenja
  1. RAZRED PRIRODOSLOVNO-MATEMATIČKE GIMNAZIJE (105 SATI GODIŠNJE)
  A. 1.6. NAKON PRVE GODINE UČENJA PREDMETA INFORMATIKA U DOMENI RAČUNALNO RAZMIŠLJANJE I PROGRAMIRANJE UČENIK ANALIZIRA PROBLEM, DEFINIRA ULAZNE I IZLAZNE VRIJEDNOSTI TE UOČAVA KORAKE ZA RJEŠAVANJE PROBLEMA.
  *** Uz korištenje osnovne strukture jezika koristiti gotove biblioteke radi ubrzanja rada. Tip zadatka: Koristiti AJAX način rada za dohvaćanja podataka putem API - primjer izrade grafikona s podacima dobivenim putem API-a.
+```
+
 
 Korišteni izvori
 * [Osijek Software City CodeCAMP: Osnove JavaScripta]
