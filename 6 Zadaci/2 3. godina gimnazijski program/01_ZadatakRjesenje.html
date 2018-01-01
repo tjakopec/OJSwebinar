@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<title>LJSI2016 T3Z1</title>
+	</head>
+	<body>
+		<form action="#" method="get">
+			<fieldset>
+				<legend>Unesite podatke</legend>
+				<label for="ime">Ime</label>
+				<input type="text" name="ime" id="ime" />
+				<label for="godine">Godine</label>
+				<input type="number" name="godine" id="godine" />
+				<label for="omiljenaBoja">Omiljena boja</label>
+				<input type="color" name="omiljenaBoja" id="omiljenaBoja">
+				<input type="submit" value="Dodaj" onclick="return dodajPodatke();">
+			</fieldset>
+
+			<fieldset>
+				<legend>Uneseni podaci</legend>
+				<label for="uvjet">Uvjet</label>
+				<input type="text" name="uvjet" id="uvjet" onkeyup="filtriraj();">
+				<ul id="podaci">
+				</ul>
+			</fieldset>
+			</form>
+			<script src="01_skripta.js"></script>
+
+	</body>
+</html>

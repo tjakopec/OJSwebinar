@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<title>OJS: 1. godina prirodoslovno matematička gimnazija</title>
+	</head>
+	<body>
+		<!--
+
+			pretpostavka je da se prvo riješe prethodna dva zadatka
+
+		Koristeći dostupne podatke na https://github.com/opendatajson napraviti jednostavniju analizu (ukupno, majveći, najmanji, prosjek, itd.) na željenim skupom podataka
+		-->
+	
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<script>
+
+			// 1. rješenje
+			//HTML stranica se mora učitati unutar web servera. Preporuka: https://www.apachefriends.org/index.html
+			$.getJSON( "podaci/2017-18/de.1.clubs.json", function( vratioAPI ) {
+				console.log("U " + vratioAPI.name + " ima " + vratioAPI.clubs.length + " klubova");
+			});
+
+
+			// motivirati učenike da samostalno istraže dostupne podatke, neka se u njima probudi ideja što i kako bi se s njima moglo napraviti i naravno onda neka to naprave
+
+		
+			// OSTALE ZADATKE KOMBINIRATI S DRUGIM PROGRAMERSKIM TEMAMA. NPR. IZRADITI VLASTITI API PA SE SPOJITI NA NJEGA.
+		</script>
+	</body>
+</html>
