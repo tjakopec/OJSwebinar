@@ -18,7 +18,7 @@ Sadržaj (45 min)
     online: https://codepen.io/, https://jsfiddle.net/, https://jsbin.com, https://plnkr.co i dr.
     lokalno koristeći strukturu mrežnog mjesta
 2. Gradivni elementi jezika (10 min)
-3. Javascript API za upravljanje HTML elementima i CSS svjojstvima (5 min)
+3. Javascript API za upravljanje HTML elementima i CSS svojstvima (5 min)
 4. Korištenje gotovih biblioteka treće strane (jQuery) (10 min)
 5. Asinkroni način rada prilikom dohvaćanja podataka (AJAX) (5 min)
 6. Zadaci (10 min)

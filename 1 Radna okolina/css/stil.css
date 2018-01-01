@@ -1,0 +1,12 @@
+body {
+    /* https://color.adobe.com/create/color-wheel/ */
+    background-color: #5FB6FF;
+    font-size: 2em;
+    text-align: center;
+  }
+ul{
+    list-style: none;
+    text-align: left;
+    font-size: 0.5em;
+}
+  
