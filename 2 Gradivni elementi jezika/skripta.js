@@ -129,15 +129,15 @@ var y=2;
 var rezultat;
 
 if (x>y)
-	console.log("tt");
+	console.log("x je veće od y za vrijednosti x=" + x + ", y="+y);
 else
-	console.log("pp");
+	console.log("x NIJE veće od y za vrijednosti x=" + x + ", y="+y);
 
-console.log((x>y) ? "tt" : "pp");
+console.log("x " + ((x>y) ? "je" : "NIJE") + " veće od y za vrijednosti x=" + x + ", y="+y);
 
 //loše
 if (x>y)
-	console.log("ddd");
+	console.log("Kada if nema {} zagrade odnosi se samo na prvi liniju nakon njega");
 	x=4;
 
 if(x>y & x>10){
@@ -165,10 +165,11 @@ console.log("--------------");
 var ocjena=2;
 
 if (ocjena==1){
-	console.log("Ne");
+	console.log("Nedovoljan");
 } else if (ocjena==2){
-	console.log("Do");
+	console.log("Dovoljan");
 }
+// itd...
 
 
 switch(ocjena){
@@ -197,7 +198,7 @@ switch(ocjena){
 
 var ime ="Tomislav";
 
-var imena = ["Dora", "Lada", "Tomislav"];
+var imena = ["Dora", "Lada", "Mara"];
 
 console.log("imena: " + imena);
 
@@ -319,7 +320,7 @@ do{
 console.log("-----------------------");
 
 
-var imena=["Marija","Zrinka","Marko","Pero"];
+var imena=["Tomislav","Nataša","Dora","Lada","Mara"];
 for (var i=0; i<imena.length; i++){
 	console.log("Vrijednost elementa niza na mjestu " + i + ": " + imena[i]);
 }
@@ -352,7 +353,7 @@ var osoba=[];
 osoba.push("ime");
 osoba.push(77);
 
-osoba["ime"]="Pero";
+osoba["ime"]="Mara";
 osoba["godine"]=22;
 console.log(osoba);
 console.log("osoba[\"ime\"]: " + osoba["ime"]);
@@ -365,7 +366,7 @@ console.log("-------------");
 
 // implementacija koristeći klasu Object
 var osoba = new Object();
-osoba.ime="Pero";
+osoba.ime="Lada";
 osoba.godine=22;
 
 console.log("osoba.ime: " + osoba.ime);
@@ -382,9 +383,9 @@ console.log(osoba);
 
 
 var studenti= [
-{ime: "Marija", prezime: "Herc", godine: 22},
-{ime: "Stjepan", prezime: "Kulik", godine: 19},
-{ime: "Kotani", prezime: "Redit", godine: 28},
+{ime: "Mara", prezime: "Herc", godine: 22},
+{ime: "Lada", prezime: "Kulik", godine: 19},
+{ime: "Dora", prezime: "Redit", godine: 28},
 ];
 
 var s;
