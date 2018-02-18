@@ -12,16 +12,16 @@ var li = document.createElement("li");
 //kreiram text čvor koji će se nalaziti u stavci
 var naziv = document.createTextNode("Tekst stavke");
 
-//dodjaljeujem tekst stavci
+//dodjeljujem tekst stavci
 li.appendChild(naziv);
 
-//mjenjam svojstvo stavke
+//mijenjam svojstvo stavke
 li.style.color="#f00";
 
 //dodjeljujem stavku listi
 lista.appendChild(li);
 
-//listu postavljam na stranicu dodjeljivanje na body element
+//listu postavljam na stranicu dodjeljivanjem na body element
 //getElementsByTagName vraća niz i onda uzimam prvi element niza [0] te na njega dodajem listu
 document.getElementsByTagName("body")[0].appendChild(lista);
 
