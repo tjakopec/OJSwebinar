@@ -13,8 +13,11 @@ Predavač:
 Tomislav Jakopec je veliki zaljubljenik u informacijske tehnologije općenito. Zaposlen je kao poslijedoktorand na Odsjeku za informacijske znanosti Filozofskog fakulteta u Osijeku. Sudjeluje u izvođenje nastave na kolegijima Oblikovanje mrežnih stranica, Baze podataka II, Implementacije programskih rješenja za oblikovanje sadržaja, Elektroničko nakladništvo i knjižarstvo, Informacijsko komunikacijska infrastruktura, Projektiranje informacijskih sustava te Programiranje 2 i 3.
 
 https://www.facebook.com/tjakopec
+
 https://twitter.com/tjakopec
+
 https://www.linkedin.com/in/tomislavjakopec/
+
 http://www.ffos.unios.hr/cv/30/infoznanosti/tomislav-jakopec
 
 Sadržaj (45 min)
