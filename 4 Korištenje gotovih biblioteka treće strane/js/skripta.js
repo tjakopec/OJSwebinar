@@ -2,7 +2,7 @@
 
 $("#rotiraj").click(function(){
     var sadrzaji=[];
-    //sadržaje div-ova izvuči u niz
+    //sadržaje div-ova izvući u niz
     $(".slika").each(function( indeks, vrijednost ) {
         sadrzaji.push($(this).html());
     });
