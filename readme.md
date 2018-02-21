@@ -1,4 +1,7 @@
 # OJSwebinar
+
+Snimka webinara: https://meduza.carnet.hr/index.php/media/watch/12114
+
 Webinar održan u sklopu edukacije na projektu Uvođenja Informatike kao obveznog predmeta u osnovnoškolski odgoj i obrazovanje
 
 JavaScript je nezaobilazni programski jezik kod definiranja dinamike (prvenstveno podatkovne) na mrežnim stranicama. Webinar je prvenstveno namjenjen za korištenje principa programiranja prilikom obogaćivanja sadržaja na mrežnim stranicama, sekundarno za razvoj algoritamskog razmišljanja.
